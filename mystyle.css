@@ -1,0 +1,90 @@
+
+ *{ 
+   margin:0;padding:0;
+  
+    } 
+body{width:100%;height:100vh;
+    background-image: url('weather7.jpg') ;
+     background-position: center center fixed;
+     background-size: cover;
+     font-family:'Reggae One',cursive;
+     overflow: hidden;
+     
+   }
+
+.wrapper{
+height:75vh;width: 50vh;
+margin:100px auto;
+background-image: linear-gradient(to bottom, rgb(12, 12, 160) , white);
+background-color:rgb(197, 179, 245);
+align-items: center;
+
+text-align:center;
+box-shadow:5px 5px 15px rgb(11,3,32);
+border-radius: 25px;
+}
+.searchinp{
+ width:100%;
+text-align: center;
+margin: top 10px;
+}
+
+.searchbar{height:40px;
+width:90%;
+transition-duration: 0.8sec;
+border:none;
+outline:none;
+padding:3pt;
+font-size: 1.2rem;
+box-shadow:5px 5px 10px black;
+background-image: linear-gradient(to bottom, rgb(255, 174, 0) , rgb(255, 115, 0));
+border-radius: 15px;
+}
+.details{
+
+padding-bottom: 10pt ; 
+text-align: center;
+
+}
+
+.temperature{font-size:xx-large;
+  font-weight:bolder;
+  font-size :4rem;
+  padding-bottom:10pt;
+  padding-top:10pt;
+  text-shadow: 2px 2px #ff0000;;
+  
+}
+.location{font-size:x-large;
+  padding-bottom:10pt;
+  padding-top:10pt;
+ }
+ 
+.humidity{font-size:x-large;
+  padding-bottom:10pt;
+  padding-top:10pt;}
+  
+.weather{font-size:x-large;
+    padding-bottom:10pt;
+    padding-top:10pt;}
+
+
+.footer{float:right;
+  height:3vh;
+}
+
+.searchbar:hover{transform:scale(1.1);}
+.date{padding-bottom:10pt;
+  padding-top:10pt;}
+
+  ::placeholder { 
+    color:rgb(0, 0, 39);
+    opacity: 2; 
+  }
+  .city:hover{transform:scale(1.1);}
+  .date:hover{transform:scale(1.1);}
+  .temperature:hover{transform:scale(1.1);}
+  .hilo:hover{transform:scale(1.1);}
+  .humidity:hover{transform:scale(1.1);}
+  .weather:hover{transform:scale(1.1);}
+
